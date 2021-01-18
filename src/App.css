@@ -1,0 +1,14 @@
+.nav-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.left-nav{
+  width: 20%;
+  padding: 1rem;
+  margin-left: 10rem;
+}
+.right-nav{
+  justify-self: end;
+  margin-right: 5rem;
+}
